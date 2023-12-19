@@ -5,6 +5,7 @@
 root = true
 
 [*]
+
 # Estilo de sangría
 # Valores posibles: tabulación, espacio
 indent_style = space
