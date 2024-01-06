@@ -110,11 +110,6 @@
   color: #838383;
 }
 
-.header__footer__list {
-  list-style: none;
-  padding: 0;
-}
-
 /*main*/
 .recipes {
   background-color: #0a2750;
@@ -156,7 +151,7 @@
   column-gap: 40px;
 }
 
-.recipes__video {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: 0;
