@@ -103,7 +103,61 @@ página siguiente para obtener algunas sugerencias.-->
           </div>
         </section>
 
-        <section class="reservation" id="reservas"></section>
+        <section class="reservation" id="reservas">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="">Nombre *</label>
+              <input
+                class="form__input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Nombre Apellido"
+                required
+              />
+              <br />
+              <label class="form__label" for="">Número de comensales *</label>
+              <input
+                class="form__input"
+                type="number"
+                min="1"
+                max="8"
+                name=""
+                id=""
+                placeholder="1-8"
+                required
+              />
+              <br />
+              <label class="form__label" for="">Fecha y hora *</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                name=""
+                id=""
+                required
+              />
+              <br />
+              <label class="form__label" for="">Tu correo electrónico *</label>
+              <input
+                class="form__input"
+                type="email"
+                name=""
+                id=""
+                placeholder="email@email.com"
+                required
+              />
+              <br />
+              <button class="form__button">Reservar una mesa</button>
+              <br />
+              <label class="form__checkbox" for="">
+                <input class="form__input" type="checkbox" />
+                Acepto los términos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
+
         <section class="menu" id="menu"></section>
         <section class="about" id="contacto"></section>
       </main>
