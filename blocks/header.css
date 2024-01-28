@@ -12,35 +12,6 @@
   flex-direction: column;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  position: relative;
-  height: 39px;
-  width: 105px;
-}
-
-.nav__links {
-  display: flex;
-  list-style: none;
-  align-items: flex-start;
-  padding: 0;
-  column-gap: 20px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .header__title {
   z-index: 1;
   max-width: 729px;
